@@ -15,8 +15,8 @@ jobs:
       image: node:16
 
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb+srv
-      MONGODB_CLUSTER_ADDRESS: cluster0.pkawmuf.mongodb.net
+      MONGODB_CONNECTION_PROTOCOL: mongodb
+      MONGODB_CLUSTER_ADDRESS: momgodb #label of service to establish service connection
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
